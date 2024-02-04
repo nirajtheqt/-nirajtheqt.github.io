@@ -86,7 +86,7 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'Tata onsultancy Services' 
+      company: 'Tata onsultancy Services', 
       position: 'Devops Engineer',
       from: '2021',
       to: 'Present',
