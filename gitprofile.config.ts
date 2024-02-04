@@ -53,7 +53,7 @@ const CONFIG = {
   },
   seo: {
     title: 'Portfolio of Niranjan Pawar',
-    description: Hi im devops engineer having three years of experience in the industry',
+    description: 'Hi im devops engineer having three years of experience in the industry',
     imageURL: '',
   },
   social: {
