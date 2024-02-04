@@ -12,7 +12,7 @@ const CONFIG = {
   base: '/Myprofile/',
   projects: {
     github: {
-      display: true, // Display GitHub projects?
+      display: false, // Display GitHub projects?
       header: 'Github Projects',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
@@ -53,68 +53,51 @@ const CONFIG = {
   },
   seo: {
     title: 'Portfolio of Niranjan Pawar',
-    description: '',
+    description: Hi im devops engineer having three years of experience in the industry',
     imageURL: '',
   },
   social: {
     linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
-    facebook: '',
-    instagram: '',
-    youtube: '', // example: 'pewdiepie'
-    dribbble: '',
-    behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
-    skype: '',
-    telegram: '',
-    website: 'https://www.arifszn.com',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
+    phone: '7057367802',
+    email: 'nirajpawar755@gmail.com',
   },
   resume: {
     fileUrl:
       'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
+    'Linux',
+    'Bash Scripting',
     'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
+    'Jenkins',
+    'CI/CD',
+    'Kubernetes',
+    'AWS',
+    'terraform',
     'Git',
     'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'Ansible',
+    'Azure',
+    'soanrqube',
+    'nexus',
+    'OWASP dependancy check',
+    'Trivy',
+    
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Tata onsultancy Services' 
+      position: 'Devops Engineer',
+      from: '2021',
       to: 'Present',
-      companyLink: 'https://example.com',
-    },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
-    },
+      companyLink: 'https://www.bing.com/ck/a?!&&p=641abe91f86a8ee2JmltdHM9MTcwNzAwNDgwMCZpZ3VpZD0yMmY4ZmQ2Ni0xZmRjLTZhYTMtMDkzMy1lOTdkMWUwOTZiMjImaW5zaWQ9NTI0NA&ptn=3&ver=2&hsh=3&fclid=22f8fd66-1fdc-6aa3-0933-e97d1e096b22&psq=tata+consultancy+services&u=a1aHR0cHM6Ly93d3cudGNzLmNvbS8&ntb=1',
+    }
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
+      name: 'Aws CCP',
+      body: 'AWS',
+      year: 'March 2026',
       link: 'https://example.com',
     },
   ],
@@ -211,7 +194,7 @@ const CONFIG = {
 
   // Optional Footer. Supports plain text or HTML.
   footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
+      class="text-primary" href="https://nirajtheqt.github.io/Myprofile/"
       target="_blank"
       rel="noreferrer"
     >GitProfile</a> and ❤️`,
